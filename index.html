@@ -1,15 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Date & Time Project</title>
+
+</head>
+
+
+
+<body>
+  <h1>Hello World!</h1>
+  <hr />
+
+
+
+  <!-- DISPLAY CURRENT DAY AND TIME -->
+
+  <div id="display-element"></div>
+  <button onclick="displayDate()">Click Me! </button>
+  <hr />
+
+
+
+  <!-- CONVERT NUMBER TO STRING -->
+
+  <h3>Convert Number to String!</h3>
+  <input id="numberEntered" type="number">
+  <button onclick="convertToString()" type="submit">Convert Number to String!</button>
+  <div id="outputString"></div>
+
+  <hr />
+
+
+  <!-- CONVERT STRING TO NUMBER -->
+
+  <h3>Convert String to Number!</h3>
+  <input id="stringEntered" type="text">
+  <button onclick="convertToNumber()" type="submit">Convert String to Number!</button>
+  <div id="outputNumber"></div>
+
+  <hr />
+
+
+  <!-- DATA TYPES -->
+
+  <h3>Data Types!</h3>
+  <input id="dataInputted" type="text">
+  <button onclick="dataTypes()" type="submit">Click to See Data Type!</button>
+  <div id="dataType"></div>
+
+  <hr />
+
+  <!-- ADD 2 NUMBERS TOGETHER -->
+
+  <h3>Add 2 Numbers!</h3>
+  <input id="num1" type="number"> <span>+</span>
+  <input id="num2" type="number">
+  <button onclick="summation()" type="submit">Add</button>
+  <div id="results"></div>
+
+  <hr />
+
+
+  <!-- WHEN THERE ARE 2 TRUTHY VALUES -->
+
+  <h3>Both Truthy Values!</h3>
+  <input id="input1" type="text">
+  <input id="input2" type="text">
+  <button onclick="bothTruthy()" type="submit">Find Out!</button>
+  <div id="bothTrue"></div>
+
+  <hr />
+
+   <!-- WHEN THERE IS AT LEAST ONE TRUTHY VALUE -->
+
+<h3>At Least One Truthy Value!</h3>
+
+<input id="inputUno" type="text">
+   <input id="inputDos" type="text">
+   <button onclick="oneTruthy()" type="submit">Check</button>
+   <div id="oneTruethyVal"></div>
+
+   <hr/> 
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
 </html>
